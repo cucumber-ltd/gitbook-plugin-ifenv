@@ -1,0 +1,26 @@
+{
+  "name": "gitbook-plugin-ifenv",
+  "version": "1.0.0",
+  "description": "Conditionally render content based on environment variables",
+  "engines": {
+    "gitbook": ">2.x.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cucumber-ltd/gitbook-plugin-ifenv.git"
+  },
+  "keywords": [
+    "gitbook",
+    "ifenv"
+  ],
+  "author": "Cucumber Ltd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cucumber-ltd/gitbook-plugin-ifenv/issues"
+  },
+  "homepage": "https://github.com/cucumber-ltd/gitbook-plugin-ifenv#readme"
+}
