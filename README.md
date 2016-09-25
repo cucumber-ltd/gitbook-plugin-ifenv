@@ -18,13 +18,13 @@ and PDFs.
 ## Example
 
 ```
-{% ifenv env="java" }
+{% ifenv env="java" %}
 Run `mvn test` to build the project
-{% endifenv }
+{% endifenv %}
 
-{% ifenv env="javascript" }
+{% ifenv env="javascript" %}
 Run `npm test` to build the project
-{% endifenv }
+{% endifenv %}
 ```
 
 Conditional blocks are *only* rendered if the environment variable specified by
