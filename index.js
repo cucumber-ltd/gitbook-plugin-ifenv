@@ -4,7 +4,10 @@ module.exports = {
       process: function(block) {
         const envVar = block.kwargs.env
         if (process.env[envVar]) {
-          return this.book.renderBlock('markdown', block.body)
+          if (block.body.split("\n").length == 1)
+            return this.book.renderInline('markdown', block.body)
+          else
+            return this.book.renderBlock('markdown', block.body)
         } else {
           return ""
         }
